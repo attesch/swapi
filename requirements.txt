@@ -1,5 +1,5 @@
 Django==1.7.4
-Padding==0.4
+Padding==0.5
 SQLAlchemy==0.9.8
 dj-database-url==0.3.0
 dj-stripe==0.3.5
