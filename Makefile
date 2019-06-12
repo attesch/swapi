@@ -4,6 +4,8 @@ install:
 
 build:
 	python manage.py migrate
+
+create_superuser:
 	python manage.py createsuperuser
 
 load_data:
@@ -16,7 +18,7 @@ load_data:
 	python manage.py loaddata films.json
 
 serve:
-	python manage.py runserver
+	python manage.py runserver 0.0.0.0:8000
 
 dump_data:
 	python manage.py dumpdata resources.planet > resources/fixtures/planets.json --indent 4
