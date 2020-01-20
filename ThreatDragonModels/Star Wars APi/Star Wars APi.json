@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Star Wars APi",
+    "owner": "Aaron",
+    "description": "API for looking up starwars characters and ships"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Aaron"
+  }
+}
